@@ -1,0 +1,115 @@
+#mainContainer {
+  position: relative;
+  min-height: 900px;
+  height: auto !important;
+}
+#mainContainer h1 {
+  height: 53px;
+  width: 224px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 52px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+h1 .s1 {
+  font-size: 21px;
+  font-weight: bold;
+  color: #3196ed;
+}
+h1 .s2 {
+  color: #5b5b5b;
+  font-size: 21px;
+  font-weight: bold;
+}
+h1 .s3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a5a5a5;
+  font-size: 11px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.pageInfo {
+  height: 51px;
+  width: 876px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 51px;
+}
+.pageInfo .s5 {
+  font-size: 20px;
+  color: #858585;
+  font-weight: bold;
+  float: left;
+  font-family: "微软雅黑";
+  padding-left: 30px;
+}
+.pageInfo .s6 {
+  height: 50px;
+  width: 13px;
+  background: url(../img/titsanji.jpg) no-repeat center center;
+  float: left;
+  padding-left: 20px;
+}
+.pageInfo .s7 {
+  float: right;
+  color: #3599ed;
+  font-size: 12px;
+  font-style: normal;
+  padding-right: 30px;
+}
+.pageInfo .s8 {
+  float: right;
+  color: #7d7d7d;
+  font-size: 13px;
+  font-weight: normal;
+  height: 50px;
+  line-height: 50px;
+}
+.pageInfo .s8 a {
+  text-decoration: none;
+  color: #7d7d7d;
+}
+#pageNav {
+  position: absolute;
+  left: 10px;
+  top: 55px;
+  width: 225px;
+  padding-top: 20px;
+}
+#pageNav a {
+  text-decoration: none;
+  display: block;
+  width: 187px;
+  height: 29px;
+  line-height: 29px;
+  color: #6c6c6c;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: url(../img/arrow2.jpg);
+  text-align: center;
+}
+#pageNav a.on,
+#pageNav a:hover {
+  background: url(../img/arrow1.jpg);
+}
+#pageNav span {
+  display: block;
+  width: 187px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-top: 1px dashed #7d7d7d;
+}
+.pageBody {
+  min-height: 848px;
+  height: auto !important;
+  width: 875px;
+  position: absolute;
+  right: 0;
+  top: 53px;
+  border-top: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+}

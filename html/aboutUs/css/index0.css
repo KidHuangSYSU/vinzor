@@ -1,0 +1,61 @@
+.pageBody .bg {
+  width: 785px;
+  height: 188px;
+  margin: 30px auto;
+  background: url(../img/bg.jpg);
+}
+.pageBody .box {
+  width: 785px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+.pageBody p {
+  width: 785px;
+  text-indent: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #404040;
+  font-family: "微软雅黑";
+}
+.box img {
+  position: absolute;
+}
+.box img.i1 {
+  height: 335px;
+  width: 236px;
+  left: 0;
+  top: 0;
+}
+.box img.i2 {
+  height: 336px;
+  width: 236px;
+  left: 246px;
+  top: 0;
+}
+.box img.i3 {
+  height: 332px;
+  width: 235px;
+  right: 0;
+  top: 0;
+}
+.box img.i4 {
+  height: 333px;
+  width: 238px;
+  left: 0;
+  bottom: 0;
+}
+.box img.i5 {
+  height: 333px;
+  width: 232px;
+  left: 248px;
+  bottom: 0;
+}
+.box img.i6 {
+  height: 330px;
+  width: 244px;
+  right: 0;
+  bottom: 0;
+}
