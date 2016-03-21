@@ -19,7 +19,6 @@ header {
 #logo {
   position: absolute;
   left: 0;
-  top: middle;
   width: 210px;
   height: 82px;
   background: url(../img/head_01.jpg) no-repeat;

@@ -11,3 +11,106 @@
   width: 1100px;
   margin: 0 auto;
 }
+.pbnav {
+  height: 37px;
+  background-color: #3798ed;
+  border: 0;
+  cellpadding: 0;
+  cellspacing: 0;
+  width: 809px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 12px;
+  color: white;
+}
+.pbnav .cc1 {
+  width: 118px;
+  line-height: 30px;
+}
+.pbnav .cc2 {
+  width: 229px;
+  line-height: 30px;
+}
+.pbnav .cc3 {
+  width: 200px;
+  line-height: 30px;
+}
+.pbnav .cc4 {
+  width: 219px;
+  line-height: 30px;
+}
+.pbnav .cc5 {
+  width: 43px;
+}
+.pbnav td {
+  text-align: right;
+}
+.items {
+  list-style: none;
+}
+.items > li {
+  width: 809px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d3d3d3;
+}
+.items > li:hover {
+  cursor: pointer;
+}
+.linav {
+  padding-top: 3px;
+  width: 809px;
+  height: 47px;
+}
+.linav div {
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+}
+.linav .ss1 {
+  width: 32px;
+  height: 13px;
+  display: inline-block;
+  background: url(../img/toRight.jpg) no-repeat right bottom;
+}
+.linav .ss2 {
+  width: 270px;
+}
+.linav .ss3 {
+  width: 186px;
+}
+.linav .ss4 {
+  width: 65px;
+}
+.linav .ss5 {
+  width: 206px;
+  text-align: right;
+}
+.sss1 {
+  width: 32px;
+  height: 13px;
+  display: inline-block;
+  background: url(../img/toDown.jpg) no-repeat right bottom;
+}
+.text {
+  width: 738px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: none;
+}
+.text h4 {
+  font-family: "宋体";
+}
+.text ol {
+  padding-bottom: 20px;
+}
+.text li {
+  width: 738px;
+  list-style-position: inside;
+  font-family: "宋体";
+  font-size: 13px;
+  line-height: 150%;
+}
+.text h3 {
+  letter-spacing: 10px;
+  padding-bottom: 5px;
+}

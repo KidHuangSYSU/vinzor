@@ -3,7 +3,7 @@
 #main {
   width: 100%;
   background: url(../img/contactUs.jpg) no-repeat center top;
-  backgorund-color: rgba(249, 249, 249, 1);
+  background-color: rgba(249, 249, 249, 1);
   padding-top: 195px;
   padding-bottom: 80px;
 }
@@ -20,12 +20,75 @@
   	line-height: 26px;
   	font-family: Microsoft YaHei;
     font-size: 14px;
-	margin-left: 40px;
-	margin-bottom: 5px;
-	color: #404040;  	
+	  margin-left: 40px;
+	  margin-bottom: 5px;
+	  color: #404040;  	
   }
   span {
-	display: block;
-	height: 38px;	
+	  display: block;
+	  height: 38px;	
+  }
+  .pbInfo {
+    height: 40px;
+    width: 781px;
+    margin: 0 auto;
+    padding-top: 15px;
+    line-height: 40px;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: normal;
+    color: #727272;
+    border-bottom: 1px solid #ebebeb;
+  }
+}
+
+._form {
+  width: 781px;
+  margin: 0 auto;
+
+  input[type="text"] {
+    padding: 5px;
+    width: 363px;
+    height: 20px;
+  }
+  input[type="button"] {
+    width: 71px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 305px;
+    background-color: silver;
+
+    &:hover {
+      background-color: orange;
+    }
+  }
+  textarea {
+    padding: 5px;
+    width: 363px;
+    height: 180px;
+  }
+
+  ._item {
+    display: inline;
+    color: #727272;
+    font-size: 14px;
+    font-family: "宋体";
+  }
+  .tips {
+    display: inline;
+    color: #b4b4b4;
+    font-size: 12px;
+    font-family: "宋体";
+  }
+  .rules {
+    display: none;
+  }
+  .err{
+    color: red;
+    display: inline;
+  }
+  .ok{
+    color: green;
+    display: inline;
   }
 }

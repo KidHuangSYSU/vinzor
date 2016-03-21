@@ -95,6 +95,7 @@ h1 .s3 {
 #pageNav a.on,
 #pageNav a:hover {
   background: url(../img/arrow1.jpg);
+  color: white;
 }
 #pageNav span {
   display: block;

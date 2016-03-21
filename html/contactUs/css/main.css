@@ -1,7 +1,7 @@
 #main {
   width: 100%;
   background: url(../img/contactUs.jpg) no-repeat center top;
-  backgorund-color: #f9f9f9;
+  background-color: #f9f9f9;
   padding-top: 195px;
   padding-bottom: 80px;
 }
@@ -22,4 +22,63 @@
 .pageBody span {
   display: block;
   height: 38px;
+}
+.pageBody .pbInfo {
+  height: 40px;
+  width: 781px;
+  margin: 0 auto;
+  padding-top: 15px;
+  line-height: 40px;
+  font-family: "宋体";
+  font-size: 12px;
+  font-weight: normal;
+  color: #727272;
+  border-bottom: 1px solid #ebebeb;
+}
+._form {
+  width: 781px;
+  margin: 0 auto;
+}
+._form input[type="text"] {
+  padding: 5px;
+  width: 363px;
+  height: 20px;
+}
+._form input[type="button"] {
+  width: 71px;
+  height: 28px;
+  margin-top: 20px;
+  margin-left: 305px;
+  background-color: silver;
+}
+._form input[type="button"]:hover {
+  background-color: orange;
+}
+._form textarea {
+  padding: 5px;
+  width: 363px;
+  height: 180px;
+}
+._form ._item {
+  display: inline;
+  color: #727272;
+  font-size: 14px;
+  font-family: "宋体";
+}
+._form .tips {
+  display: inline;
+  color: #b4b4b4;
+  font-size: 12px;
+  font-family: "宋体";
+}
+._form .rules {
+  display: none;
+}
+._form .err {
+  color: red;
+  display: inline;
+}
+._form .ok {
+  color: green;
+  display: inline;
 }
